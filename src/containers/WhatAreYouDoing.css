@@ -1,9 +1,10 @@
 .WhatAreYouDoing {
   color: #fff;
+  margin-bottom: 150px;
 }
 
 .WhatAreYouDoing h2 {
-    font-weight: 100;
+  font-weight: 100;
 }
 
 .WhatAreYouDoing-Content ul {

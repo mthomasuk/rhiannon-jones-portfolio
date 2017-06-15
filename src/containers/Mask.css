@@ -44,7 +44,7 @@
 
 .Photo, .Filter {
   top: 61%;
-  bottom: -56px;
+  bottom: -10%;
   left: -40px;
   right: -40px;
   z-index: -1;
