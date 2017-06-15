@@ -86,3 +86,10 @@
     background-position: 0 20%;
   }
 }
+
+@media screen and (max-width:600px) {
+  .Photo,
+  .Filter {
+    top: 55%;
+  }
+}

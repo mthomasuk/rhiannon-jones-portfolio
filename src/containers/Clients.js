@@ -14,7 +14,7 @@ class Clients extends Component {
           </div>
           <div className="Clients-Content">
             <p>Rhiannon's past roles include content strategy at Microsoft and work for clients such as Thomson &amp; First Choice Holidays, Coca-Cola, Skype, Experian, EasyJet and eBay, along with high-street banks and major rail operators.</p>
-            <p>She has just finished work on designing andcrafting all content for
+            <p>She has just finished work on designing andcrafting all content for&nbsp;
               <Link href="https://boxt.co.uk" title="BOXT" alt="boxt" classExtension="Underline"/>, a world-first online boiler service.</p>
           </div>
           <div className="Clients-Buttons">

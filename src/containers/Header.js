@@ -3,7 +3,38 @@ import './Header.css';
 import Mask from './Mask';
 import Button from '../components/Button';
 
+const debounce = (fn, delay) => {
+  let timer = null;
+  return function () {
+    let context = this, args = arguments;
+    clearTimeout(timer);
+    timer = setTimeout(() => {
+      fn.apply(context, args);
+    }, delay);
+  };
+}
+
 class Header extends Component {
+
+  componentDidMount() {
+      const debouncedScroll = debounce(this.handleScroll, 50);
+      document.addEventListener('scroll', debouncedScroll);
+  }
+
+  componentWillUnmount() {
+      const debouncedScroll = debounce(this.handleScroll, 50);
+      document.removeEventListener('scroll', debouncedScroll);
+  }
+
+  handleScroll = () => {
+      const headerButtons = document.getElementsByClassName('Header-Buttons')[0];
+      if(window.scrollY > 750) {
+          headerButtons.classList.add('Scrolled');
+      } else {
+          headerButtons.classList.remove('Scrolled');
+      }
+  }
+
   render() {
     return (
       <section>
