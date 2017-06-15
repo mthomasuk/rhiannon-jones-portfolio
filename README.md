@@ -4,8 +4,8 @@ Photo courtesy of Victoria Cookson.
 
 ## Requirements
 
-node v8+
-react-create-app
+`node v8+`  
+`react-create-app`
 
 ## Build
 
