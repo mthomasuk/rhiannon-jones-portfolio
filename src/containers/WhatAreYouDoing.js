@@ -7,7 +7,7 @@ class WhatAreYouDoing extends Component {
       <section>
         <div className="WhatAreYouDoing">
           <div className="WhatAreYouDoing-Headline">
-            <h2>What She Can <strong>Do</strong></h2>
+            <h2>What She Can Do</h2>
           </div>
           <div className="WhatAreYouDoing-Content">
             <ul>

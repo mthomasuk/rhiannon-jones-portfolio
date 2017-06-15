@@ -10,10 +10,6 @@ body {
   overflow: hidden;
 }
 
-strong, b {
-  font-weight: 300;
-}
-
 h1, h2 {
   text-transform: uppercase;
   font-weight: 400;

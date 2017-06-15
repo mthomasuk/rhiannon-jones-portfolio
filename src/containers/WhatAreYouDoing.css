@@ -3,10 +3,6 @@
   margin-bottom: 150px;
 }
 
-.WhatAreYouDoing h2 {
-  font-weight: 100;
-}
-
 .WhatAreYouDoing-Content ul {
   margin: 0 5px 0 -30px;
   list-style-image: url(/img/diamond.png);

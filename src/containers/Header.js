@@ -49,7 +49,7 @@ class Header extends Component {
           </div>
           <div className="Header-Buttons">
             <Button href="mailto:rhiannon.f.jones@gmail.com" title="Email" classExtension="Twos-Up"/>
-            <Button href="tel:07890333777" title="Call" classExtension="Twos-Up"/>
+            <Button href="tel:+447717746135" title="Call" classExtension="Twos-Up"/>
           </div>
         </div>
         <Mask classExtension="Orange"/>
