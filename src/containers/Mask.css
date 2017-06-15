@@ -43,7 +43,7 @@
 }
 
 .Photo, .Filter {
-  top: 61%;
+  top: 59%;
   bottom: -10%;
   left: -40px;
   right: -40px;
@@ -55,6 +55,7 @@
   background-image: url(/img/rheezy.jpg);
   background-size: 100%;
   background-attachment: fixed;
+  background-position: 0 20%;
 }
 
 .Filter {
@@ -64,14 +65,14 @@
 
 .Black {
   background-color: #32324a;
-      opacity: 0.5;
-      bottom: 0;
-      left: -447px;
-      width: 600px;
-      height: 600px;
-      z-index: -1;
-      border: 1px solid #03c3ba;
-      transform: rotate(90deg) skew(45deg, -50deg);
+  opacity: 0.5;
+  bottom: 0;
+  left: -447px;
+  width: 600px;
+  height: 600px;
+  z-index: -1;
+  border: 1px solid #03c3ba;
+  transform: rotate(90deg) skew(45deg, -50deg);
 }
 
 .White {
