@@ -17,12 +17,12 @@ const debounce = (fn, delay) => {
 class Header extends Component {
 
   componentDidMount() {
-      const debouncedScroll = debounce(this.handleScroll, 50);
+      const debouncedScroll = debounce(this.handleScroll, 25);
       document.addEventListener('scroll', debouncedScroll);
   }
 
   componentWillUnmount() {
-      const debouncedScroll = debounce(this.handleScroll, 50);
+      const debouncedScroll = debounce(this.handleScroll, 25);
       document.removeEventListener('scroll', debouncedScroll);
   }
 
