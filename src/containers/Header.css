@@ -28,3 +28,10 @@
 .Header-Content {
     margin-bottom: 40px;
 }
+
+@media screen and (max-width:600px) {
+  .Header-Headline h1,
+  .Header-Headline h2 {
+      color: #000;
+  }
+}

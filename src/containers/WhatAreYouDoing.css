@@ -8,11 +8,17 @@
 }
 
 .WhatAreYouDoing-Content ul {
-  margin: 0 -30px;
+  margin: 0 5px 0 -30px;
   list-style-image: url(/img/diamond.png);
   list-style-position: outside;
 }
 
 .WhatAreYouDoing-Content ul li {
   margin: 15px 0;
+}
+
+@media screen and (max-width:750px) {
+  .WhatAreYouDoing-Content {
+    padding: 0 30px;
+  }
 }
