@@ -1,0 +1,23 @@
+.Button {
+    text-transform: uppercase;
+    text-align: center;
+    display: block;
+    cursor: pointer;
+    color: #ffffff;
+    background-color: #f66930;
+    padding: 14px 0;
+    box-shadow: 2px 2px 2px #989898;
+    width: 300px;
+    margin: 0 auto;
+}
+
+.Button:last-of-type {
+    background-color: #ffa682;
+}
+
+.Twos-Up {
+    display: inline-block;
+    width: 42%;
+    box-sizing: border-box;
+    margin: 0 3%;
+}

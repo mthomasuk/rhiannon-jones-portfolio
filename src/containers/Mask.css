@@ -1,0 +1,72 @@
+.Mask {
+  position: absolute;
+}
+
+.Orange {
+  background-color: #ffa682;
+  top: -495px;
+  height: 690px;
+  width: 1000px;
+  left: -24px;
+  z-index: -1;
+  transform: rotate(-30deg);
+}
+
+.Teal {
+  background-color: #52c4c6;
+  top: -40px;
+  left: -640px;
+  width: 1500px;
+  height: 900px;
+  z-index: -1;
+  transform: rotate(30deg);
+}
+
+.Green {
+  background-color: #91ddbc;
+  top: -23px;
+  left: -264px;
+  width: 1500px;
+  height: 1000px;
+  z-index: -1;
+  transform: rotate(-30deg) skew(10deg);
+}
+
+.Dark-Green {
+  background-color: #4cc4a4;
+  top: 43px;
+  left: -94px;
+  width: 900px;
+  height: 900px;
+  z-index: -1;
+  transform: rotate(-30deg) skew(29deg);
+}
+
+.Photo, .Filter {
+  top: 65%;
+  bottom: -56px;
+  left: -40px;
+  right: -40px;
+  z-index: -1;
+  transform: skew(0, 2deg);
+}
+
+.Photo {
+  background-image: url(/img/rheezy.jpg);
+  background-size: 100%;
+  background-attachment: fixed;
+}
+
+.Filter {
+  background-color: #03c3ba;
+  opacity: 0.5;
+}
+
+.Black {
+  background-color: #000;
+  opacity: 0.68;
+}
+
+.White {
+  background-color: #fff;
+}

@@ -1,0 +1,24 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+#root {
+  padding: 30px;
+  margin: -10px;
+  overflow: hidden;
+}
+
+h1, h2 {
+  text-transform: uppercase;
+}
+
+h2 {
+  font-size: 2.5em;
+}
+
+section {
+  position: relative;
+  margin: 0 auto;
+  max-width: 660px;
+}

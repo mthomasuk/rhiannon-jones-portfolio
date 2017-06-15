@@ -1,0 +1,11 @@
+.Link {
+    text-decoration: none;
+    color: #000;
+    text-transform: uppercase;
+    display: inline-block;
+}
+
+.Threes-Up {
+    width: 33%;
+    text-align: center;
+}
