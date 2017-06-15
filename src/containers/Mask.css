@@ -10,6 +10,19 @@
   left: -24px;
   z-index: -1;
   transform: rotate(-30deg);
+  animation: 4s infinite alternate orange-drift;
+  transition: transform 0.5s linear;
+  will-change: transform;
+}
+
+@keyframes orange-drift {
+    0% {
+      transform: rotate(-30deg) translateX(0%) translateY(0%);
+    }
+
+    100% {
+      transform: rotate(-30deg) translateX(2%) translateY(2%);
+    }
 }
 
 .Teal {
@@ -20,6 +33,19 @@
   height: 900px;
   z-index: -1;
   transform: rotate(30deg);
+  animation: 4s infinite alternate teal-drift;
+  transition: transform 0.5s linear;
+  will-change: transform;
+}
+
+@keyframes teal-drift {
+    0% {
+      transform: rotate(30deg) translateX(0%) translateY(0%);
+    }
+
+    100% {
+      transform: rotate(30deg) translateX(2%) translateY(2%);
+    }
 }
 
 .Green {
@@ -30,6 +56,19 @@
   height: 1000px;
   z-index: -1;
   transform: rotate(-30deg) skew(10deg);
+  animation: 4s infinite alternate green-drift;
+  transition: transform 0.5s linear;
+  will-change: transform;
+}
+
+@keyframes green-drift {
+    0% {
+      transform: rotate(-30deg) skew(10deg) translateX(0%) translateY(0%);
+    }
+
+    100% {
+      transform: rotate(-30deg) skew(10deg) translateX(3%) translateY(3%);
+    }
 }
 
 .Dark-Green {
@@ -40,6 +79,19 @@
   height: 900px;
   z-index: -1;
   transform: rotate(-30deg) skew(29deg);
+  animation: 4s infinite alternate dark-green-drift;
+  transition: transform 0.5s linear;
+  will-change: transform;
+}
+
+@keyframes dark-green-drift {
+    0% {
+      transform: rotate(-30deg) skew(29deg) translateX(0%) translateY(0%);
+    }
+
+    100% {
+      transform: rotate(-30deg) skew(29deg) translateX(-6%) translateY(6%);
+    }
 }
 
 .Photo, .Filter {
@@ -58,9 +110,13 @@
   background-position: 0 20%;
 }
 
+
 .Filter {
   background-color: #03c3ba;
   opacity: 0.5;
+  animation: 6s infinite alternate opacity-drift;
+  transition: all 0.5s linear;
+  will-change: transform;
 }
 
 .Black {
@@ -73,6 +129,19 @@
   z-index: -1;
   border: 1px solid #03c3ba;
   transform: rotate(90deg) skew(45deg, -50deg);
+  animation: 6s infinite alternate opacity-drift;
+  transition: all 0.5s linear;
+  will-change: transform;
+}
+
+@keyframes opacity-drift {
+    0% {
+      opacity: 0.5;
+    }
+
+    100% {
+      opacity: 0.8;
+    }
 }
 
 .White {
