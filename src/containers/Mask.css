@@ -43,7 +43,7 @@
 }
 
 .Photo, .Filter {
-  top: 65%;
+  top: 61%;
   bottom: -56px;
   left: -40px;
   right: -40px;
@@ -63,8 +63,15 @@
 }
 
 .Black {
-  background-color: #000;
-  opacity: 0.68;
+  background-color: #32324a;
+  opacity: 0.5;
+  bottom: -400px;
+  left: -50%;
+  width: 50%;
+  height: 50%;
+  z-index: -1;
+  border: 1px solid #03c3ba;
+  transform: rotate(90deg) skew(45deg, -50deg);
 }
 
 .White {
