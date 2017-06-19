@@ -28,10 +28,13 @@ class Header extends Component {
 
   handleScroll = () => {
       const headerButtons = document.getElementsByClassName('Header-Buttons')[0];
+      const headerContent = document.getElementsByClassName('Header-Content')[0];
       if(window.scrollY > 860) {
           headerButtons.classList.add('Scrolled');
+          headerContent.classList.add('Scrolled-Padding');
       } else {
           headerButtons.classList.remove('Scrolled');
+          headerContent.classList.remove('Scrolled-Padding');
       }
   }
 

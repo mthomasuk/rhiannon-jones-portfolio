@@ -43,6 +43,9 @@
     width: 50%;
     margin: 0;
   }
+  .Header-Content.Scrolled-Padding {
+    padding-bottom: 80px;
+  }
 
   @keyframes appear {
       0% {
