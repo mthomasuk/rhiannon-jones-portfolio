@@ -17,18 +17,18 @@ const debounce = (fn, delay) => {
 class Header extends Component {
 
   componentDidMount() {
-      const debouncedScroll = debounce(this.handleScroll, 25);
+      const debouncedScroll = debounce(this.handleScroll, 10);
       document.addEventListener('scroll', debouncedScroll);
   }
 
   componentWillUnmount() {
-      const debouncedScroll = debounce(this.handleScroll, 25);
+      const debouncedScroll = debounce(this.handleScroll, 10);
       document.removeEventListener('scroll', debouncedScroll);
   }
 
   handleScroll = () => {
       const headerButtons = document.getElementsByClassName('Header-Buttons')[0];
-      if(window.scrollY > 750) {
+      if(window.scrollY > 860) {
           headerButtons.classList.add('Scrolled');
       } else {
           headerButtons.classList.remove('Scrolled');
